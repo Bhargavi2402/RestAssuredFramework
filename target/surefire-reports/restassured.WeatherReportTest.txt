@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: restassured.WeatherReportTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.724 s <<< FAILURE! - in restassured.WeatherReportTest
+Statuscode(restassured.WeatherReportTest)  Time elapsed: 2.12 s  <<< FAILURE!
+java.lang.AssertionError: correct status code is generated expected [200] but found [503]
+	at restassured.WeatherReportTest.Statuscode(WeatherReportTest.java:25)
+
+Statuscode(restassured.WeatherReportTest)  Time elapsed: 1.325 s  <<< FAILURE!
+java.lang.AssertionError: correct status code is generated expected [400] but found [503]
+	at restassured.WeatherReportTest.Statuscode(WeatherReportTest.java:25)
+
